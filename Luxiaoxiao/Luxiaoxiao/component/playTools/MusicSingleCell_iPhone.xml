@@ -27,7 +27,7 @@
     width: 100%;
     height: 1px;
     position: absolute;
-    v-float:top;
+    v-float:bottom;
     background-color: #E3E6E8;
     }
     

@@ -19,6 +19,7 @@
                 <button class="mask" id="clean"/>
                 <label class="clean_label">清空</label>
             </row>
+            <image class="line"/>
         </row>
         <list id="list" class="list"/>
     </col>
@@ -93,6 +94,14 @@
     height: 100%;
     background-color: #F4F8FB;
     position:absolute;
+    }
+    
+    .line{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    v-float:bottom;
+    background-color: #E3E6E8;
     }
   </style>
 </ui>
