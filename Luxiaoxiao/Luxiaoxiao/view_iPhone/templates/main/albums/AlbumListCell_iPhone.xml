@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="AlbumListCell_iPhone">
+  <!--
+    <row></row>
+  -->
+  <col class="wrapper">
+    <!-- add your UI elements here -->
+    <image class="bg"/>
+    <row class="container">
+        <image class="v_line"/>
+        <label class="title" id="title"/>
+        <row class="sub_container">
+            <label class="more">更多</label>
+            <image class="right_arrow"/>
+        </row>
+        <button class="mask" id="more_tap"/>
+    </row>
+  </col>
+   
+  <style type="text/css">
+    .wrapper {
+        top:10px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container{
+    width:100%;
+    height: 40px;
+    padding-left:10px;
+    padding-right:10px;
+    }
+    
+    .sub_container{
+    width: 45px;
+    height: 20px;
+    v-float: center;
+    position:absolute;
+    float:right;
+    }
+    
+    .bg{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    }
+    
+    .mask{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    }
+    
+    .v_line{
+    width: 3px;
+    height: 50%;
+    background-color:#0DB7EF;
+    v-float: center;
+    }
+    
+    .title{
+    width: auto;
+    height: auto;
+    margin-left: 5px;
+    color:black;
+    text:路学;
+    font-size:18px;
+    v-float: center;
+    }
+    
+    .more{
+    float: left;
+    width: auto;
+    height:auto;
+    font-size:15px;
+    color:#0DB7EF;
+    v-float:center;
+    }
+    
+    .right_arrow{
+    float: right;
+    width: 20px;
+    height:20px;
+    mode:fit;
+    v-float:center;
+    image:url(more_blue.png);
+    }
+  </style>
+</ui>

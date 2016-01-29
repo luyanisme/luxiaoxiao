@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="PlayTools">
+  <!--
+    <row></row>
+  -->
+  <row class="wrapper">
+    <image class="line"/>
+    <row class="container_1">
+        <image  class="function_icon"/>
+        <button class="mask" id="function"/>
+    </row>
+    <row class="container">
+        <image class="previous_icon"/>
+        <button class="mask" id="previous"/>
+    </row>
+    <row class="container">
+        <image id="play_icon" class="play_icon"/>
+        <button class="mask" id="play"/>
+    </row>
+    <row class="container">
+        <image class="next_icon"/>
+        <button class="mask" id="next"/>
+    </row>
+  </row>
+   
+  <style type="text/css">
+    .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .line{
+    position:absolute;
+    width: 100%;
+    height: 1px;
+    background-color:#0DB7EF;
+    float:top;
+    }
+    
+    .container_1{
+    width: 9%;
+    height: 100%;
+    left: 10px;
+    }
+    
+    .container{
+    width: 9%;
+    height: 100%;
+    margin-left: 60px;
+    }
+    
+    @media(device:iPhone5){
+    .container{
+    width: 9%;
+    height: 100%;
+    margin-left: 45px;
+    }
+    }
+    
+    .function_icon{
+    width: 80%;
+    height: auto;
+    mode:fit;
+    image:url(list_icon.png);
+    v-float:center;
+    float:center;
+    }
+    
+    .previous_icon{
+    width: 100%;
+    height: auto;
+    mode:fit;
+    image:url(play_pre_icon.png);
+    v-float:center;
+    float:center;
+    }
+    
+    .play_icon{
+    width: 120%;
+    height: auto;
+    mode:fit;
+    image:url(play_start_icon.png);
+    v-float:center;
+    float:center;
+    }
+    
+    .next_icon{
+    width: 100%;
+    height: auto;
+    mode:fit;
+    image:url(play_next_icon.png);
+    v-float:center;
+    float:center;
+    }
+    
+    .mask{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    }
+  </style>
+</ui>

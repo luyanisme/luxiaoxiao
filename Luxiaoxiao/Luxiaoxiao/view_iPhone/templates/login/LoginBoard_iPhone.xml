@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="LoginBoard_iPhone">
+  <!--
+    <row></row>
+  -->
+  <col class="wrapper">
+    <col class="wrapper_1">
+        <label class="board_title">登录</label>
+        <row class="container">
+            <image class="frame"/>
+            <label class="phone_num_label public">手机号:</label>
+            <row class="input_container">
+                <input id="phoneNum" class="phoneNum public_input" placeholder="手机号"/>
+            </row>
+        </row>
+        <row class="container">
+            <image class="frame"/>
+            <label class="phone_password_label public">密码:</label>
+            <row class="input_container">
+                <input id="password" class="password public_input" placeholder="密码"/>
+            </row>
+        </row>
+        <row class="container">
+            <button class="login" id="login">登录</button>
+        </row>
+        <row class="container">
+            <button id="register" class="register">注册</button>
+            <button id="forget" class="forget">忘记密码?</button>
+        </row>
+    </col>
+  </col>
+  
+  <style type="text/css">
+    .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .wrapper_1{
+    width: 60%;
+    height: auto;
+    v-float:center;
+    float: center;
+    }
+    
+    .container{
+    margin-top:20px;
+    width: 100%;
+    height: 50px;
+    }
+    
+    @media(device:iPhone5){
+    .container{
+    margin-top:20px;
+    width: 100%;
+    height: 40px;
+    }
+    }
+    
+    .public{
+    float: left;
+    color:#24B7ED;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    v-float: center;
+    }
+    
+    .public_input{
+    width: 95%;
+    height: 100%;
+    left: 5%;
+    font-size:15px;
+    color:white;
+    }
+    
+    .input_container{
+    width: 80%;
+    height: 40px;
+    float: right;
+    v-float: center;
+    position:absolute;
+    }
+    
+    .frame{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#52747F;
+    }
+    
+    .password{
+    input-secure: yes;
+    }
+    
+    .login{
+    height: 40px;
+    width: 100%;
+    background-color:#24B7ED;
+    v-float: center;
+    font-size: 20px;
+    }
+    
+    .register{
+    position:absolute;
+    width: 30px;
+    height: 20px;
+    float:left;
+    v-float:top;
+    color:#000000;
+    font-size:15px;
+    }
+    
+    .forget{
+    position:absolute;
+    width: 70px;
+    height: 20px;
+    float:right;
+    v-float:top;
+    color:#000000;
+    font-size:15px;
+    }
+    
+    .board_title{
+    width: auto;
+    height: auto;
+    float: center;
+    font-size:33px;
+    margin-bottom:20px;
+    }
+  </style>
+  
+</ui>

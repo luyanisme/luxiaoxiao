@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="PlayListCell">
+  <!--
+    <row></row>
+  -->
+  <col class="wrapper">
+    <!-- add your UI elements here -->
+    <button class="mask" id="cancel"/>
+    <col class="container">
+        <image class="bg"/>
+        <row class="sub_container">
+            <row class="sub_container_left">
+                <button class="mask" id="circle"/>
+                <image class="circle_icon" id="circle_icon"/>
+            </row>
+            <label class="title">播放列表</label>
+            <row class="sub_container_right">
+                <button class="mask" id="clean"/>
+                <label class="clean_label">清空</label>
+            </row>
+        </row>
+        <list id="list" class="list"/>
+    </col>
+  </col>
+   
+  <style type="text/css">
+    .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    }
+    
+    .container{
+    width: 100%;
+    height: 70%;
+    top:30%;
+    }
+    
+    .sub_container{
+    width: 100%;
+    height: 60px;
+    }
+    
+    .sub_container_left{
+    left: 10px;
+    position: absolute;
+    width:30px;
+    height: 30px;
+    v-float: center;
+    }
+    
+    .sub_container_right{
+    right: 10px;
+    position: absolute;
+    width:30px;
+    height: 30px;
+    v-float: center;
+    }
+    
+    .circle_icon{
+    width:30px;
+    height: 30px;
+    mode:fit;
+    background-color:orange;
+    }
+    
+    .clean_label{
+    width:auto;
+    height: auto;
+    color:#a4a4a4;
+    v-float: center;
+    font-size:15px;
+    }
+    
+    .title{
+    position: absolute;
+    width: auto;
+    height: auto;
+    color:black;
+    font-size: 18px;
+    float:center;
+    v-float: center;
+    }
+    
+    .bg{
+    width: 100%;
+    height: 100%;
+    background-color: #F4F8FB;
+    position:absolute;
+    }
+  </style>
+</ui>

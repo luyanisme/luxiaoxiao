@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="PosterImageCell_iPhone">
+  <!--
+    <row></row>
+  -->
+  <col class="wrapper">
+    <!-- add your UI elements here -->
+    <image class="default_image"/>
+    <image id="photo"/>
+  </col>
+   
+  <style type="text/css">
+    .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .default_image{
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    mode: fit;
+    v-float: center;
+    float: center;
+    image:url(default.png);
+    }
+    #photo {
+    width: 100%;
+    height: 100%;
+    mode: fill;
+    }
+  </style>
+</ui>
