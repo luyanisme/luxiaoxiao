@@ -15,6 +15,13 @@
 		391321F61C5B484800F3D13A /* PlayListCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = 391321EF1C5B484800F3D13A /* PlayListCell.xml */; };
 		391321F71C5B484800F3D13A /* PlayTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 391321F11C5B484800F3D13A /* PlayTools.m */; };
 		391321F81C5B484800F3D13A /* PlayTools.xml in Resources */ = {isa = PBXBuildFile; fileRef = 391321F21C5B484800F3D13A /* PlayTools.xml */; };
+		391321FD1C5DE39500F3D13A /* PersonalBoard_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 391321FB1C5DE39500F3D13A /* PersonalBoard_iPhone.m */; };
+		391321FE1C5DE39500F3D13A /* PersonalBoard_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = 391321FC1C5DE39500F3D13A /* PersonalBoard_iPhone.xml */; };
+		391322021C5DE48B00F3D13A /* PersonalBoardCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 391322001C5DE48B00F3D13A /* PersonalBoardCell_iPhone.m */; };
+		391322031C5DE48B00F3D13A /* PersonalBoardCell_iPhone.xml in Resources */ = {isa = PBXBuildFile; fileRef = 391322011C5DE48B00F3D13A /* PersonalBoardCell_iPhone.xml */; };
+		391322051C5DE69600F3D13A /* personal_right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 391322041C5DE69600F3D13A /* personal_right_arrow.png */; };
+		391322091C5E607600F3D13A /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 391322081C5E607600F3D13A /* VPImageCropperViewController.m */; };
+		3913220D1C5E617800F3D13A /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 3913220C1C5E617800F3D13A /* Public.m */; };
 		39FE1ED31C294D690020F414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FE1ED21C294D690020F414 /* UIKit.framework */; };
 		39FE1ED51C294D690020F414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FE1ED41C294D690020F414 /* Foundation.framework */; };
 		39FE1ED71C294D690020F414 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FE1ED61C294D690020F414 /* CoreGraphics.framework */; };
@@ -437,6 +444,17 @@
 		391321F01C5B484800F3D13A /* PlayTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayTools.h; sourceTree = "<group>"; };
 		391321F11C5B484800F3D13A /* PlayTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayTools.m; sourceTree = "<group>"; };
 		391321F21C5B484800F3D13A /* PlayTools.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PlayTools.xml; sourceTree = "<group>"; };
+		391321FA1C5DE39500F3D13A /* PersonalBoard_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalBoard_iPhone.h; sourceTree = "<group>"; };
+		391321FB1C5DE39500F3D13A /* PersonalBoard_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalBoard_iPhone.m; sourceTree = "<group>"; };
+		391321FC1C5DE39500F3D13A /* PersonalBoard_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PersonalBoard_iPhone.xml; sourceTree = "<group>"; };
+		391321FF1C5DE48B00F3D13A /* PersonalBoardCell_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalBoardCell_iPhone.h; sourceTree = "<group>"; };
+		391322001C5DE48B00F3D13A /* PersonalBoardCell_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalBoardCell_iPhone.m; sourceTree = "<group>"; };
+		391322011C5DE48B00F3D13A /* PersonalBoardCell_iPhone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PersonalBoardCell_iPhone.xml; sourceTree = "<group>"; };
+		391322041C5DE69600F3D13A /* personal_right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personal_right_arrow.png; sourceTree = "<group>"; };
+		391322071C5E607600F3D13A /* VPImageCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPImageCropperViewController.h; sourceTree = "<group>"; };
+		391322081C5E607600F3D13A /* VPImageCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPImageCropperViewController.m; sourceTree = "<group>"; };
+		3913220B1C5E617800F3D13A /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
+		3913220C1C5E617800F3D13A /* Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Public.m; sourceTree = "<group>"; };
 		39FE1ECF1C294D690020F414 /* Luxiaoxiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luxiaoxiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FE1ED21C294D690020F414 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		39FE1ED41C294D690020F414 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1262,6 +1280,37 @@
 			path = playTools;
 			sourceTree = "<group>";
 		};
+		391321F91C5DE36000F3D13A /* personal */ = {
+			isa = PBXGroup;
+			children = (
+				391321FA1C5DE39500F3D13A /* PersonalBoard_iPhone.h */,
+				391321FB1C5DE39500F3D13A /* PersonalBoard_iPhone.m */,
+				391321FC1C5DE39500F3D13A /* PersonalBoard_iPhone.xml */,
+				391321FF1C5DE48B00F3D13A /* PersonalBoardCell_iPhone.h */,
+				391322001C5DE48B00F3D13A /* PersonalBoardCell_iPhone.m */,
+				391322011C5DE48B00F3D13A /* PersonalBoardCell_iPhone.xml */,
+			);
+			path = personal;
+			sourceTree = "<group>";
+		};
+		391322061C5E607600F3D13A /* VPImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				391322071C5E607600F3D13A /* VPImageCropperViewController.h */,
+				391322081C5E607600F3D13A /* VPImageCropperViewController.m */,
+			);
+			path = VPImageCropper;
+			sourceTree = "<group>";
+		};
+		3913220A1C5E615C00F3D13A /* common */ = {
+			isa = PBXGroup;
+			children = (
+				3913220B1C5E617800F3D13A /* Public.h */,
+				3913220C1C5E617800F3D13A /* Public.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 		39FE1EC61C294D690020F414 = {
 			isa = PBXGroup;
 			children = (
@@ -1312,6 +1361,7 @@
 				39FE1EF31C294D690020F414 /* controller */,
 				39FE1EF21C294D690020F414 /* model */,
 				39FE25771C58DFF70020F414 /* component */,
+				3913220A1C5E615C00F3D13A /* common */,
 				39FE1EF41C294D690020F414 /* view_iPhone */,
 				39FE1EF71C294D690020F414 /* view_iPad */,
 				39FE1EFA1C294D690020F414 /* library */,
@@ -2768,6 +2818,7 @@
 				39FE25CF1C59CE510020F414 /* more_blue.png */,
 				39FE256A1C58DB140020F414 /* back_black.png */,
 				39FE255D1C2A6BC20020F414 /* navigation-back@2x.png */,
+				391322041C5DE69600F3D13A /* personal_right_arrow.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -2782,6 +2833,7 @@
 				39FE25A51C590DFB0020F414 /* function */,
 				39FE25C41C59BEBB0020F414 /* albums */,
 				39FE25D11C5A28180020F414 /* roadStudy */,
+				391321F91C5DE36000F3D13A /* personal */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -2789,6 +2841,7 @@
 		39FE25771C58DFF70020F414 /* component */ = {
 			isa = PBXGroup;
 			children = (
+				391322061C5E607600F3D13A /* VPImageCropper */,
 				391321E91C5B484800F3D13A /* playTools */,
 			);
 			path = component;
@@ -2951,9 +3004,12 @@
 				39FE25971C58F1490020F414 /* banner_bg1.png in Resources */,
 				39FE25D01C59CE510020F414 /* more_blue.png in Resources */,
 				39FE25861C58E18E0020F414 /* play_stop_icon.png in Resources */,
+				391322031C5DE48B00F3D13A /* PersonalBoardCell_iPhone.xml in Resources */,
 				39FE25831C58E18E0020F414 /* play_next_icon.png in Resources */,
+				391322051C5DE69600F3D13A /* personal_right_arrow.png in Resources */,
 				39FE25761C58DE650020F414 /* MainBoard_iPhone.xml in Resources */,
 				39FE255E1C2A6BC20020F414 /* navigation-back@2x.png in Resources */,
+				391321FE1C5DE39500F3D13A /* PersonalBoard_iPhone.xml in Resources */,
 				39FE25921C58F0960020F414 /* default.png in Resources */,
 				39FE25C21C5913990020F414 /* around_icon.png in Resources */,
 			);
@@ -2974,6 +3030,7 @@
 				39FE23F71C294D7D0020F414 /* UIView+PanGesture.m in Sources */,
 				39FE25A11C590DE60020F414 /* PosterCell_iPhone.m in Sources */,
 				39FE244A1C294D7D0020F414 /* Bee_UITemplateParserAndroid.m in Sources */,
+				3913220D1C5E617800F3D13A /* Public.m in Sources */,
 				39FE23CA1C294D7D0020F414 /* UISwitch+UIDataBinding.m in Sources */,
 				39FE23F21C294D7D0020F414 /* UIView+Background.m in Sources */,
 				39FE25A91C590E3E0020F414 /* FunctionCell_iPhone.m in Sources */,
@@ -3055,6 +3112,7 @@
 				39FE24061C294D7D0020F414 /* Bee_UIZoomImageView.m in Sources */,
 				39FE24381C294D7D0020F414 /* Bee_UITransitionFlip.m in Sources */,
 				39FE24AA1C294D7D0020F414 /* ASIAuthenticationDialog.m in Sources */,
+				391322091C5E607600F3D13A /* VPImageCropperViewController.m in Sources */,
 				39FE249F1C294D7D0020F414 /* Bee_HTTPWorklet2.m in Sources */,
 				39FE24771C294D7D0020F414 /* NSArray+BeeExtension.mm in Sources */,
 				39FE24671C294D7D0020F414 /* BeeDatabase+BeeActiveRecord.m in Sources */,
@@ -3161,6 +3219,7 @@
 				39FE248C1C294D7D0020F414 /* Bee_HTTP.mm in Sources */,
 				39FE243E1C294D7D0020F414 /* BeeViewModel+BeeUISignal.m in Sources */,
 				39FE23D11C294D7D0020F414 /* Bee_UIAccelerometer.m in Sources */,
+				391322021C5DE48B00F3D13A /* PersonalBoardCell_iPhone.m in Sources */,
 				39FE23B51C294D7D0020F414 /* UITextView+BeeUIStyle.m in Sources */,
 				39FE23FB1C294D7D0020F414 /* UIView+Tag.m in Sources */,
 				39FE24B01C294D7D0020F414 /* ASIInputStream.m in Sources */,
@@ -3267,6 +3326,7 @@
 				39FE24091C294D7D0020F414 /* BeeUIZoomImageView+BeeUIStyle.m in Sources */,
 				39FE256F1C58DC910020F414 /* ForgetPasswordBoard_iPhone.m in Sources */,
 				39FE24AE1C294D7D0020F414 /* ASIFormDataRequest.m in Sources */,
+				391321FD1C5DE39500F3D13A /* PersonalBoard_iPhone.m in Sources */,
 				39FE24211C294D7D0020F414 /* UIButton+LayoutParser.m in Sources */,
 				39FE24351C294D7D0020F414 /* Bee_UITransition.m in Sources */,
 				39FE24531C294D7D0020F414 /* UITextView+XMLParser.m in Sources */,

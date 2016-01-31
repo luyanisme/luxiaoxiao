@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="PersonalBoardCell_iPhone">
+  <!--
+    <row></row>
+  -->
+  <col class="wrapper">
+      <row class="photo_content">
+          <image class="bg_color_item"/>
+          <row class="photo_item">
+              <image id="photo" class="photo"/>
+          </row>
+          <label id="username" class="name_item">小夏</label>
+          <image class="right_arrow_item"/>
+          <button id="photoClick" class="mask"/>
+      </row>
+      
+      <row class="content_item">
+          <label class="bg_color_item"/>
+          <image class="image_public" id="account_icon"/>
+          <label class="name_item">账号</label>
+          <image class="right_arrow_item"/>
+          <button id="accountClick" class="mask"></button>
+      </row>
+      <row class="content_item2">
+          <label class="bg_color_item"/>
+          <image class="image_public" id="name_icon"/>
+          <image class="sep_line"/>
+          <label class="name_item">修改昵称</label>
+          <image class="right_arrow_item"/>
+          <button id="nameClick" class="mask"></button>
+      </row>
+      <row class="content_item2">
+          <label class="bg_color_item"/>
+          <image class="image_public" id="password_icon"/>
+          <image class="sep_line"/>
+          <label class="name_item">修改密码</label>
+          <image class="right_arrow_item"/>
+          <button id="passwordClick" class="mask"></button>
+      </row>
+      <row class="content_item">
+          <label class="bg_color_item"/>
+          <image class="image_public" id="binding_icon"/>
+          <label class="name_item">绑定设备</label>
+          <image class="right_arrow_item"/>
+          <button id="bindingClick" class="mask"></button>
+      </row>
+      <button class="quit" id="quit"/>
+  </col>
+  
+  <style type="text/css">
+    .wrapper {
+        width: 100%;
+        height: auto;
+    }
+    
+    .bg_color{
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#E2E3E5;
+    }
+    .photo_content{
+    width:100%;
+    height:80px;
+    margin-top:10px;
+    padding-left:10px;
+    padding-right: 10px;
+    }
+    .bg_color_item{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:white;
+    }
+    .name_item{
+    width:40%;
+    height:100%;
+    font:18px;
+    margin-left:10px;
+    }
+    .photo_item{
+    left: 10px;
+    width:50px;
+    height:50px;
+    v-float:center;
+    }
+    .photo{
+    width:55px;
+    height:55px;
+    v-float:center;
+    float:left;
+    mode:fill;
+    border-radius:27.5px;
+    background-color: orange;
+    }
+    .image_public{
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    v-float: center;
+    mode:fit;
+    background-color:orange;
+    }
+    .right_arrow_item{
+    width:20px;
+    height:auto;
+    v-float:center;
+    image:url(personal_right_arrow.png);
+    mode:fit;
+    right:15px;
+    position:absollute;
+    }
+    .mask{
+    position:absolute;
+    width:100%;
+    height:100%;
+    }
+    .sep_line{
+    position:absolute;
+    height:1px;
+    background-color:#F2F2F2;
+    }
+    .content_item{
+    padding-left:10px;
+    padding-right: 10px;
+    margin-top:20px;
+    width:100%;
+    height:50px;
+    }
+    .content_item2{
+    padding-left:10px;
+    padding-right: 10px;
+    width:100%;
+    height:50px;
+    }
+    .quit{
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color:#26B6EC;
+    width: 100%;
+    height: 50px;
+    text:退出;
+    font-size: 20px;
+    padding-left:10px;
+    padding-right: 10px;
+    }
+  </style>
+</ui>

@@ -20,6 +20,7 @@
 #import "FunctionCell_iPhone.h"
 #import "AlbumListCell_iPhone.h"
 #import "StudyOfRoadBoard_iPhone.h"
+#import "PersonalBoard_iPhone.h"
 
 #pragma mark -
 
@@ -167,8 +168,8 @@ ON_SIGNAL2(FunctionSingleCell_iPhone, signal){
         
     }
     
-    if ([item.title isEqualToString:@"账户"]) {
-        
+    if ([item.title isEqualToString:@"账号"]) {
+        [self.stack pushBoard:[PersonalBoard_iPhone board] animated:YES];
     }
 }
 
